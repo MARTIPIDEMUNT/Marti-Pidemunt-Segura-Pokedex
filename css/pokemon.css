@@ -17,7 +17,7 @@
 .pokemon-img {
     width: 250px;
     margin: 20px 0; /* Espacio superior e inferior */
-    align-self: flex-start; /* Alinear la imagen a la izquierda */
+    align-items: center; /* Alinear la imagen al centro */
 }
 
 * {
