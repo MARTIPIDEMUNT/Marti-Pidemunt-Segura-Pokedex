@@ -1,4 +1,3 @@
-
 /* Contenedor para la página individual de cada Pokémon */
 .pokemon-container {
     background-color: #F7E6C4; /* Color de fondo similar al de la imagen */
@@ -6,18 +5,40 @@
     width: 100vw; /* Asegura que el contenedor ocupe el 100% del ancho de la ventana */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinear el contenido al centro */
     justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Alinear el contenido al centro */
     padding: 20px; /* Espacio alrededor */
     box-sizing: border-box; /* Incluir el padding en el tamaño total */
     margin: 0; /* Eliminar márgenes */
 }
 
+/* Contenedor de cada Pokémon */
+.pokemon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* Espacio entre cada Pokémon */
+}
+
+/* Contenedor de la fila de Pokémon */
+.pokemon-row {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan si es necesario */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
 /* Imagen del Pokémon */
 .pokemon-img {
-    width: 250px;
-    margin: 20px 0; /* Espacio superior e inferior */
-    align-items: center; /* Alinear la imagen al centro */
+    width: 200px; /* Ajustar el tamaño según sea necesario */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Nombre del Pokémon */
+.pokemon-name {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px; /* Espacio inferior */
 }
 
 * {
