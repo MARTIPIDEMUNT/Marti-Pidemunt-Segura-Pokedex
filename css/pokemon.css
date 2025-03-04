@@ -23,14 +23,15 @@
 /* Contenedor de la fila de Pokémon */
 .pokemon-row {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
+    justify-content: left; /* Alinear a la izquierda */
     flex-wrap: wrap; /* Permitir que los elementos se envuelvan si es necesario */
     margin-bottom: 20px; /* Espacio inferior */
 }
 
 /* Imagen del Pokémon */
 .pokemon-img {
-    width: 200px; /* Ajustar el tamaño según sea necesario */
+    width: 300px; /* Ancho automático */
+    height: auto; /* Altura automática */
     margin-bottom: 10px; /* Espacio inferior */
 }
 
@@ -75,7 +76,7 @@
 
 /* Estilo para el título */
 .pokemon-title {
-    text-align: center; /* Centrar el título */
+    text-align: auto; /* Alinear el título a la izquierda */
     width: 100%; /* Ocupa el 100% del ancho del contenedor */
     margin-bottom: 20px; /* Espacio inferior */
     text-decoration: none; /* Eliminar subrayado */
